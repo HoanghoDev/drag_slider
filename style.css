@@ -26,7 +26,18 @@ body{
     width: max-content;
     --left: 0;
     transform: translateX(var(--left));
-
+}
+.title{
+    padding: 20px 0;
+    color: #fff;
+    text-shadow: 0 0 10px #0007;
+    font-weight: 500;
+    font-size: large;
+}
+.title button{
+    border-radius: 20px;
+    border: none;
+    font-family: system-ui;
 }
 .slider .form .item{
     width: 200px;
